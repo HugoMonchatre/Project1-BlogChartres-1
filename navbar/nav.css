@@ -32,7 +32,7 @@
 .menuToggle{
     display: flex;
     flex-direction: row;
-    height: 1024px;
+    height: auto;
 }
 .menu{
     position: fixed;

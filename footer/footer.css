@@ -1,0 +1,50 @@
+/*Footer */  
+footer{
+    height: 200px;
+    background: #7594d7;
+    color: white;
+    font-size: 20px;
+    
+}
+#containerFooter li{
+    color: white;
+    text-decoration: none;
+}
+#containerFooter{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+#containerFooter a {
+    text-decoration: none;
+    color: inherit;
+}
+#containerFooter li:hover{
+    color: #404040;
+}
+@media screen and (min-device-width : 0px) and (max-device-width : 667px){
+    footer{
+        height: 125px;
+    }
+    #containerFooter li{
+        padding: 10px 10px 10px 10px;
+        font-size: 4vw;
+    }
+    .logoChartresFooter{
+        display: none;
+    }
+}
+@media only screen and (min-device-width : 668px) and (max-device-width : 1610px) {
+    .logoChartresFooter{
+        width: 80%;
+    }
+    #containerFooter li{
+        padding: 5px 5px 5px 5px;
+    }
+    #containerFooter{
+        margin: 0 0 0 20px;
+    }
+}

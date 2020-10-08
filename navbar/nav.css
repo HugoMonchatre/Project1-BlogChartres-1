@@ -44,7 +44,7 @@ body{
     left: 0;
     z-index: 150;
     width: 100%;
-    background:  #7594d7;
+    background: #00BE7B;
     transition: 0.6s;
     
 }
@@ -60,7 +60,7 @@ body{
     z-index: 120;
     transform: translateX(-100%);
     transition: 0.6s;
-    background-color: #f1f1f1;
+    background-color: #404040;
     width: 40%;
     height: 100%;
     opacity: 1;
@@ -71,7 +71,7 @@ body{
     display: none;
 }
 .menuContent li {
-    background-color: #7594d7;
+    background-color: #00BE7B;
     color: white;
     font-size: 3.5vw;
     padding: 20px 20px 20px 20px;
@@ -80,15 +80,19 @@ body{
 
 }
 .navigation {
-    font-size: 1vw;
+    font-size: 1.35vw;
     color: white;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
     margin: 0;
     
 }
 .navigation li {
-    padding: 35px 25px 25px 25px;
+    padding: 40px 25px 40px 25px;
+
 }
 .navigation a {
     text-decoration: none;
@@ -96,12 +100,12 @@ body{
 }
 .navigation li:hover {
     background-color: white;
-    color: #7594d7;
+    color: #00BE7B;
     cursor: pointer;
+    transition: 0.4s ease;
 }
 .logoChartresNav{
     padding: 0 100px;
-    margin: 0 200px 0 0;
 }
 .logoChartresBurger {
     width: 90%;
@@ -109,7 +113,7 @@ body{
 }
 
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 1599px) {
+@media only screen and (min-width: 0px) and (max-width: 1280px) {
     .navigation{
         display: none;
     }
